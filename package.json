@@ -1,0 +1,31 @@
+{
+  "name": "334_reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuta0801/334_Reporter.git"
+  },
+  "author": "yuta0801",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuta0801/334_Reporter/issues"
+  },
+  "homepage": "https://github.com/yuta0801/334_Reporter#readme",
+  "keywords": [
+    "334",
+    "reporter"
+  ],
+  "dependencies": {
+    "cron": "^1.2.1",
+    "date-utils": "^1.2.21",
+    "discord.js": "^11.1.0",
+    "long": "^3.2.0",
+    "mongodb": "^2.2.30",
+    "node-int64": "^0.4.0"
+  }
+}
