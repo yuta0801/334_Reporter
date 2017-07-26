@@ -61,7 +61,7 @@ function aggregate() {
 
 	// 誤差計算
 	let now  = new Date(),
-			time = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 23, 0, 0/*3, 34, 0, 0*/).getTime();
+			time = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 3, 34, 0, 0).getTime();
 	for (let i=0; i<messages.length; i++) {
 		messages[i].diff = messages[i].time - time;
 		if (messages[i].diff < 0) messages[i].rank = -1;
@@ -81,7 +81,6 @@ function aggregate() {
 		} else {
 			messages[i].score = 0;
 		}
-		console.log(messages[i].diff, r, messages[i].score);
 	}
 }
 
